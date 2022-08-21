@@ -10,10 +10,10 @@
 #define LOSS -1
 #define SIDES 6
 
-// This function simulates a single 7 sided die being rolled
+// This function simulates a single 6 sided die being rolled
 int rollDie()
 {
-    // Returns values between 1 and 7
+    // Returns values between 1 and 6
     return (rand() % SIDES) + 1;
 }
 
